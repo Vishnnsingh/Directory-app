@@ -4,12 +4,18 @@ A React-based personal directory application to add, view, and manage user data 
 
 ---
 
+## 🔗 Live Demo
+
+👉 [Click here to view the live app](https://directory-app-gules.vercel.app/)
+
+---
+
 ## 🚀 Features
 
 - ✅ Add new person entries
 - ✅ Automatically calculates age based on DOB
-- ✅ Deletes existing entries
-- ✅ Retrieves saved data from `localStorage`
+- ✅ Delete existing entries
+- ✅ Retrieve saved data from `localStorage`
 - ✅ Clean and responsive UI
 - ✅ Built using Vite + React
 - ✅ Modular component structure
