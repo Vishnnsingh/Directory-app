@@ -1,0 +1,22 @@
+.buttons{
+    width: 90%;
+    height: 10vh;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.buttons button{
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #4472C4;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+

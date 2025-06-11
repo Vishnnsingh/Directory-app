@@ -1,0 +1,54 @@
+.ret_con{
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+    border: 1px solid black;
+}
+
+.ret_con h2{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.filtered_data{
+    /* width: 400px;
+    height: 400px; */
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.filtered_data h3{
+    padding: 0 1rem;
+    display: inline-block;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+.form input{
+   width: 40%;
+   background-color: transparent;
+   border: 1px solid black;
+   height: 35px;
+   padding: 1rem;
+   font-size: 1.1rem
+}
+
+.form button{
+    width:150px;
+    background-color: #4472C4;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    height: 35px;
+ }
+ .noData{
+    text-align: center;
+    margin: 1rem;
+ }

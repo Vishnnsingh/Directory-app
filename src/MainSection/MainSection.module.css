@@ -1,0 +1,87 @@
+.main_con{
+    width: 90%;
+    height:70vh;
+    border: 1px solid black;
+    /* background-color: red; */
+    margin:auto;
+    position: relative;
+}
+
+.main_con h2{
+    display: inline-block;
+   width: 150px;
+   display: grid;
+   place-items: center;
+   height: 35px;
+    /* border: 1px solid black; */
+    margin-bottom: 1rem;
+    /* padding: 1rem; */
+    margin: auto;
+}
+
+.main_con table{
+    width: 90%;
+    margin:auto;
+}
+
+.main_con table th {
+    /* padding: 1rem; */
+    background-color: #4472C4;
+    color: white;
+    
+}
+
+.main_con table td{
+    text-align: center;
+}
+
+.main_con table th,td{
+    padding: 0.5rem;
+ 
+}
+
+.main_con table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.main_con table th,td{
+    border: 1px solid black;
+}
+
+.main_con .add{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background-color: #4472C4;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.delete{
+   font-size: 1.5rem;
+
+   /* background-color: red; */
+    /* width: 100%;
+    height: 100%;
+    color: rgb(32, 102, 241);
+    background-color: #ffffff;
+    /* border: 1px solid grey; */
+    /* border: none;
+    font-size: 1rem;
+    border-radius: 5px; */
+}
+
+.deleteTD{
+   padding: 0;
+}
+
+.delete :hover{
+   
+   color: #4472C4;
+    /* transition: 0.3s ease-in-out; */
+}

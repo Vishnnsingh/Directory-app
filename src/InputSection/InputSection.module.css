@@ -1,0 +1,41 @@
+.form_con{
+   width: 90%;
+   margin: auto;
+   background-color: #4472C4;
+   color: white;
+   margin-top: 1rem;
+}
+
+.form_con div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_con input{
+    width: 16%;
+    height: 30px;
+    padding: 0.5rem;
+}
+
+.form_con h3{
+    text-align: center;
+
+    padding: 1rem 0;
+}
+
+.save{
+    width: 16%;
+    height: 30px;
+    color: rgb(32, 102, 241);
+    background-color: #ffffff;
+    border: 1px solid grey;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.save:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
